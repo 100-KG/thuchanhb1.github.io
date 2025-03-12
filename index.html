@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phieu khao sat</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+<body onload="responsiveButton()">
+    <div class="container">
+        <h1>PHIEU KHAO SAT</h1>
+        <p class="ppp">Ban co thich do an duong pho khong?</p>
+        <div class="personalin4">
+            <p>Ho va ten</p>
+            <input class="name" placeholder="Nhap ho va ten">
+            <p>Ngay/Thang/Nam sinh</p>
+            <input class="dob" placeholder="Nhap ngay sinh">
+            <p>CCCD</p>
+            <input class="cccd" placeholder="Nhap CCCD">
+            <p>Dia chi</p>
+            <input class="address" placeholder="Nhap dia chi">
+        </div>
+        <button onclick="check(event)" type="submit" disabled id="next">NEXT</button>
+        <div class="notify"></div>
+    </div>
+</body>
+</html>
