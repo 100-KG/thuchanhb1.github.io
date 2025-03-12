@@ -1,16 +1,15 @@
-function checkAllQuestions() {
+function checkAllQuestions(event) {
+    event.preventDefault();
     console.log("nah")
     let allFilled = true;
     let errorMessage = "";
-
     // Kiểm tra 10 câu hỏi dạng ynquestion (radio, name từ 1 đến 10)
     for (let i = 1; i <= 10; i++) {
         const radios = document.getElementsByName(i.toString());
         const isChecked = Array.from(radios).some(radio => radio.checked);
         if (!isChecked) {
             allFilled = false;
-            console.log(i);
-            errorMessage += `Câu ${i} chưa được chọn.\n`;
+            errorMessage += `Cau ${i} chua duoc chon.\n`;
         }
     }
 
@@ -20,8 +19,7 @@ function checkAllQuestions() {
         const isChecked = Array.from(radios).some(radio => radio.checked);
         if (!isChecked) {
             allFilled = false;
-            console.log(i);
-            errorMessage += `Câu ${i} chưa được chọn.\n`;
+            errorMessage += `Cau ${i} chua duoc chon.\n`;
         }
     }
 
@@ -31,8 +29,7 @@ function checkAllQuestions() {
         const isChecked = Array.from(checkboxes).some(checkbox => checkbox.checked);
         if (!isChecked) {
             allFilled = false;
-            console.log(i);
-            errorMessage += `Câu ${i} chưa được chọn ít nhất một lựa chọn.\n`;
+            errorMessage += `Cau ${i} chua duoc chon it nhat 1 dap an.\n`;
         }
     }
 
@@ -42,21 +39,16 @@ function checkAllQuestions() {
         const questionNumber = 31 + index;
         if (textarea.value.trim() === "") {
             allFilled = false;
-            errorMessage += `Câu ${questionNumber} chưa được điền.\n`;
+            errorMessage += `Cau ${questionNumber} chua duoc dien.\n`;
         }
     });
 
     // Hiển thị kết quả
     if (allFilled) {
-        alert("Tất cả các câu hỏi đã được điền đầy đủ!");
+        alert("Cac cau hoi da duoc dien day du. Cam on ban vi da tham gia!");
     } else {
-        alert("Các câu hỏi sau chưa được điền đầy đủ:\n" + errorMessage);
+        alert("Cac cau hoi chua duoc dien day du.\n" + errorMessage);
     }
 
     return allFilled;
 }
-
-// document.getElementById("submitButton").addEventListener("submit", checkAllQuestions());
-
-document.addEventListener("DOMContentLoaded", function() {
-});
