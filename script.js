@@ -42,27 +42,3 @@ function responsiveButton(){
         }
     })
 }
-
-function check(event){
-    event.preventDefault();
-
-    const name = document.querySelector(".name").value;
-    const dob = document.querySelector(".dob").value;
-    const cccd = document.querySelector(".cccd").value;
-    const address = document.querySelector(".address").value;
-    let noti = document.querySelector(".notify");
-
-    noti.textContent = "";
-    noti.style.color = "";
-    if(cccd.length != 12){
-        noti.style.color = "red";
-        noti.textContent = "Invalid CCCD!";
-        return;
-    }else{
-        document.querySelector(".name").value = "";
-        document.querySelector(".dob").value = "";
-        document.querySelector(".cccd").value = "";
-        document.querySelector(".address").value = "";
-        window.location.href='index2.html'
-    }
-}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>40 cau hoi</title>
     <link rel="stylesheet" href="index2.css">
+    <script src="script2.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,38 +14,317 @@
             <div class="ynquestion">
                 <h2>1. Ban co thich an pho khong?</h2>
                 <p>(Chon 1 dap an)</p>
-                <label><input type="radio" name="1"> Co</label>
-                <label><input type="radio" name="1"> Khong</label>
+                <label><input class="radio" id="dung" type="radio" name="1"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="1"> Khong</label>
+            </div>
+            <div class="ynquestion">
+                <h2>2. Ban co thich an com nieu khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="2"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="2"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>3. Ban co thich an bun bo khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="3"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="3"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>4. Ban co thich an banh chung khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="4"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="4"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>5. Ban co thich an xoi khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="5"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="5"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>6. Ban co thich an mi quang khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="6"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="6"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>7. Ban co thich an banh cuon khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="7"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="7"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>8. Ban co thich an nem chua khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="8"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="8"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>9. Ban co thich an banh trang nuong khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="9"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="9"> Khong</label>
+            </div>
+            
+            <div class="ynquestion">
+                <h2>10. Ban co thich an thit nuong khong?</h2>
+                <p>(Chon 1 dap an)</p>
+                <label><input class="radio" id="dung" type="radio" name="10"> Co</label>
+                <label><input class="radio" id="sai" type="radio" name="10"> Khong</label>
             </div>
         </div>
         <div class="four">
             <div class="fourquestion">
                 <h2>11. Ban danh gia mon pho may diem?</h2>
                 <p>(Chon 1 dap an)</p>
-                <label><input type="radio" name="11"> 2</label>
-                <label><input type="radio" name="11"> 4</label>
-                <label><input type="radio" name="11"> 8</label>
-                <label><input type="radio" name="11"> 10</label>
+                <label><input class="radio" id="a" type="radio" name="11"> 2</label>
+                <label><input class="radio" id="b" type="radio" name="11"> 4</label>
+                <label><input class="radio" id="c" type="radio" name="11"> 8</label>
+                <label><input class="radio" id="d" type="radio" name="11"> 10</label>
+                <div class="fourquestion">
+                    <h2>12. Ban danh gia mon com nieu may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="12"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="12"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="12"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="12"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>13. Ban danh gia mon bun bo may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="13"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="13"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="13"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="13"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>14. Ban danh gia mon banh chung may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="14"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="14"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="14"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="14"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>15. Ban danh gia mon xoi may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="15"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="15"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="15"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="15"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>16. Ban danh gia mon mi quang may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="16"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="16"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="16"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="16"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>17. Ban danh gia mon banh cuon may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="17"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="17"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="17"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="17"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>18. Ban danh gia mon nem chua may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="18"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="18"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="18"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="18"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>19. Ban danh gia mon banh trang nuong may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="19"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="19"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="19"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="19"> 10</label>
+                </div>
+                
+                <div class="fourquestion">
+                    <h2>20. Ban danh gia mon thit nuong may diem?</h2>
+                    <p>(Chon 1 dap an)</p>
+                    <label><input class="radio" id="a" type="radio" name="20"> 2</label>
+                    <label><input class="radio" id="b" type="radio" name="20"> 4</label>
+                    <label><input class="radio" id="c" type="radio" name="20"> 8</label>
+                    <label><input class="radio" id="d" type="radio" name="20"> 10</label>
+                </div>
             </div>
         </div>
         <div class="multi">
             <div class="multiquestion">
                 <h2>21. Ban co nhan xet gi ve mon pho khong?</h2>
                 <p>(Co the chon nhieu dap an)</p>
-                <label><input type="checkbox"> Vua van</label>
-                <label><input type="checkbox"> Nhat</label>
-                <label><input type="checkbox"> Man</label>
-                <label><input type="checkbox"> Cay</label>
-                <label><input type="checkbox"> Chua</label>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            <div class="multiquestion">
+                <h2>22. Ban co nhan xet gi ve mon com nieu khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>23. Ban co nhan xet gi ve mon bun bo khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>24. Ban co nhan xet gi ve mon banh chung khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>25. Ban co nhan xet gi ve mon xoi khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>26. Ban co nhan xet gi ve mon mi quang khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>27. Ban co nhan xet gi ve mon banh cuon khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>28. Ban co nhan xet gi ve mon nem chua khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>29. Ban co nhan xet gi ve mon banh trang nuong khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
+            </div>
+            
+            <div class="multiquestion">
+                <h2>30. Ban co nhan xet gi ve mon thit nuong khong?</h2>
+                <p>(Co the chon nhieu dap an)</p>
+                <label><input id="1" class="checkbox" type="checkbox"> Vua van</label>
+                <label><input id="2" class="checkbox" type="checkbox"> Nhat</label>
+                <label><input id="3" class="checkbox" type="checkbox"> Man</label>
+                <label><input id="4" class="checkbox" type="checkbox"> Cay</label>
+                <label><input id="5" class="checkbox" type="checkbox"> Chua</label>
             </div>
         </div>
         <div class="write">
             <div class="writequestion">
                 <h2>31. Ban co gop y gi ve mon pho khong?</h2>
-                <textarea col="30" rows="3"></textarea>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            <div class="writequestion">
+                <h2>32. Ban co gop y gi ve mon com nieu khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>33. Ban co gop y gi ve mon bun bo khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>34. Ban co gop y gi ve mon banh chung khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>35. Ban co gop y gi ve mon xoi khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>36. Ban co gop y gi ve mon mi quang khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>37. Ban co gop y gi ve mon banh cuon khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>38. Ban co gop y gi ve mon nem chua khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>39. Ban co gop y gi ve mon banh trang nuong khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
+            </div>
+            
+            <div class="writequestion">
+                <h2>40. Ban co gop y gi ve mon thit nuong khong?</h2>
+                <textarea class="textarea" placeholder="Xin cho biet y kien cua ban." col="30" rows="3"></textarea>
             </div>
         </div>
-        <button type="submit" 
+        <button class="subbutton" id="submidButton" type="submit" >Submit</button>
     </div>
+    <script>
+    document.getElementById("submitButton").addEventListener("submit", checkAllQuestions);
+
+    </script>
 </body>
 </html>

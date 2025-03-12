@@ -49,3 +49,8 @@ body{
     margin-left: 5px;
 }
 
+.subbutton{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
